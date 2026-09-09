@@ -1,0 +1,34 @@
+{
+  "name": "insilico-subtitle-translation",
+  "version": "1.0.0",
+  "description": "Review and translate Insilico English-Chinese SRT subtitles with terminology and cue-boundary QC.",
+  "author": {
+    "name": "williamweixin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "subtitles",
+    "srt",
+    "translation",
+    "proofreading",
+    "bilingual",
+    "quality-control"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Insilico Subtitle Translation",
+    "shortDescription": "Review bilingual SRTs with terminology and cue-boundary protection.",
+    "longDescription": "A local workflow for reviewing ChatCut English, translating natural Simplified Chinese, and preventing terms or fixed phrases from being split across subtitle cues.",
+    "developerName": "williamweixin",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review this SRT's English terminology and cue boundaries before translating it.",
+      "Translate this reviewed English SRT into natural Simplified Chinese without splitting terms across cues.",
+      "Run subtitle QC and explain any protected terms split across adjacent cues."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "英矽智能翻译与字幕"
+  short_description: "英矽智能中英翻译、ChatCut 转写、SRT 校对与双语字幕交付"
+  default_prompt: "Use $translation to review the English against the audio, translate natural Chinese subtitles, and deliver validated SRT files."
